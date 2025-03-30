@@ -1,7 +1,7 @@
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Counter from "./components/Counter"; // Importar el componente separado
+import Counter from "./components/Counter";
 
 function App() {
   return (

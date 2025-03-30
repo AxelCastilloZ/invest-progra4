@@ -10,10 +10,10 @@ export function useFilter() {
 
   const [filteredItems, setFilteredItems] = useState(items);
 
-  // Memoriza la función de filtrado usando useCallback
+ 
   const filterItems = useCallback((category) => {
     setFilteredItems(items.filter(item => item.category === category));
-  }, [items]); // Solo se vuelve a crear si 'items' cambia
+  }, [items]); 
 
   return { filteredItems, filterItems };
 }
